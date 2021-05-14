@@ -1,0 +1,83 @@
+@media(max-width: 768px) {
+
+    .cabecalhoPrincipal{
+        height: auto;
+    }
+
+    .cabecalhoPrincipal .container {
+        flex-direction: column-reverse;
+    }
+
+    #divMkt{
+        margin-top: 23px;
+    }
+
+    #divMkt{
+        width: auto;
+        align-items: center;
+    }
+
+    #container2{
+        flex-direction: column;
+        height: 365px;
+    }
+
+    #container2 fieldset{
+        height: auto;
+        padding-top: 20px;
+    }
+
+    main .container{
+        height: auto;
+    }
+
+    main .container h2{
+        margin-top: 20px;
+    }
+
+    .container nav{
+        width: auto;
+    }
+
+    .container2-main{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container2-main section{
+        margin-top: 20px;
+        width: auto;
+    }
+
+    .container2-main section h1{
+        font-size: 28px;
+    }
+    
+    .container2-main section h2{
+        font-size: 20px;
+    }
+
+    #imgCarrosParque{
+        margin-top: 20px;
+    }
+
+    #caixaTexto-primaria {
+        flex-direction: column;
+    }
+
+    #caixaTexto-secundaria {
+        flex-direction: column-reverse;
+    }
+
+    #caixaTexto-primaria article{
+        width: auto;
+    }
+
+    #caixaTexto-secundaria article{
+        width: auto;
+    }
+
+    #imgCarteira{
+        margin-top: 20px;
+    }
+}
