@@ -7,7 +7,9 @@
 
 /* cabeçalho 1 */
 .cabecalhoPrincipal{
-    padding: 20px 0 0 0; 
+    height: 406px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .cabecalhoPrincipal .container{
@@ -29,9 +31,10 @@
 }
 
 h1{
-    color: red;
+    color: #E12C30;
     font-size: 32px;
-    font-weight: bolder;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #imgDokDespachante{
@@ -42,7 +45,7 @@ h1{
 
 #container2{
     height: 277px;
-    background-color: red;
+    background-color: #E12C30;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -57,7 +60,7 @@ h1{
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(167, 50, 50);
+    background-color: #CE282B;
     border-radius: 10px;
 }
 
@@ -66,6 +69,17 @@ fieldset input{
     height: 25px;
     border-radius: 10px;
     border-style: none;
+}
+
+fieldset button{
+    border-radius: 50px;
+    background: linear-gradient(90deg, #12D01A 17.21%, #12D01A 78.69%);
+    width: 255px;
+    height: 25px;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* main */
@@ -84,10 +98,11 @@ main .container{
     font-weight: bolder;
     color: rgb(90, 90, 90);
     margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container nav{
-    width: 60%;
+    width: 700px;
 }
 
 nav ul{
@@ -119,25 +134,103 @@ li img{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: red;
+    background-color: #E12C30;
 }
 
 .container2-main{
     height: 430px;
-    width: 75%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .container2-main section{
-    width: 500px;
+    width: 630px;
 }
 
-.container2-main section h1, h2{
+.container2-main section h1{
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 49px;
+}
+
+.container2-main section h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
 }
 
 .container2-main img{
     width: 270px;
+}
+
+/* texto final */
+
+.textoFinal{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#caixaTexto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#caixaTexto-primaria{
+    display: flex;
+    margin: 80px 0;
+}
+
+#caixaTexto-primaria article{
+    width: 400px;
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 45px;
+    color:#676767;
+    text-align: justify;
+}
+
+#segundoParagrafo{
+    color: #E12C30;;
+}
+
+#imgCarrosParque, #imgCarteira{
+    width: 300px;
+}
+
+#caixaTexto h2{
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(90, 90, 90);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#caixaTexto-secundaria{
+    display: flex;
+    margin: 80px 0;
+}
+
+#caixaTexto-secundaria article{
+    width: 400px;
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 45px;
+    color:#676767;
+    text-align: justify;
+}
+
+#caixaTexto button{
+    border-radius: 50px;
+    background: linear-gradient(90deg, #12D01A 17.21%, #12D01A 78.69%);
+    width: 355px;
+    height: 36px;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
 }
